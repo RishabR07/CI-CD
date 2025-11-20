@@ -23,7 +23,7 @@ jobs:
       - name: Build application
         run: echo "Building the application..."
 
-   test:
+  test:
     runs-on: ubuntu-latest
     needs: build
     steps:
